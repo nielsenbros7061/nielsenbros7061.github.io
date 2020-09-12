@@ -1,9 +1,26 @@
+$activecolor: #4CAF50;
+$inactivecolor: #f2f2f2;
+$hovercolor: #ddd;
+
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
+header {
+  background-color: $hovercolor;
+}
 
-/*Font Family Set*/
-h1, h2, h3, h4, h5, h6, p {
+
+.scss-background {
+  background-color: $activecolor;
+}
+
+
+p, h1, h2, h3, h4, h5, h6, a {
   font-family: "Oswald";
+}
+
+
+#info {
+  background-color: $activecolor;
 }
 
 
