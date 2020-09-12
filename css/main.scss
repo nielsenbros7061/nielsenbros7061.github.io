@@ -1,31 +1,75 @@
+
+// color variables
 $activecolor: #4CAF50;
 $inactivecolor: #f2f2f2;
 $hovercolor: #ddd;
 
+
+// import font (Oswald)
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
+// media query
+@media all and (min-width: 900px) {
+  #info {
+    clear: both;
+  }
+  aside {
+    float: left;
+    padding-left: 24px;
+    width: 34%;
+  }
+  article {
+    float: left;
+    padding-left: 24px;
+    width: 34%
+  }
+}
+
+
+// nesting list item inside of unordered list
+ul {
+  text-align: center;
+  li {
+    color: $hovercolor;
+  }
+}
+
+
+// nesting table headers and table data?
+table {
+  text-align: center;
+  th {
+    background-color: blue;
+  }
+  td {
+    background-color: green;
+  }
+}
+
+// specification for header background color
 header {
   background-color: $hovercolor;
 }
 
-
-.scss-background {
+// class to give sections a background
+.content-background {
   background-color: $activecolor;
 }
 
-
+// setting the font for headings, paragraphs, and links
 p, h1, h2, h3, h4, h5, h6, a {
   font-family: "Oswald";
 }
 
-
+// footer background
 #info {
   background-color: $activecolor;
 }
 
 
-/*Nav*/
+// navigation bar
 
+// class for the navigation bar
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -34,7 +78,7 @@ p, h1, h2, h3, h4, h5, h6, a {
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: $inactivecolor;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -42,11 +86,11 @@ p, h1, h2, h3, h4, h5, h6, a {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: $hovercolor;
   color: black;
 }
 
 .topnav a.active {
-    background-color: #4CAF50;
+    background-color: $activecolor;
     color: white;
 }

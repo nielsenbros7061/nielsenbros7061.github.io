@@ -1,9 +1,43 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
+@media all and (min-width: 900px) {
+  #info {
+    clear: both;
+  }
+
+  aside {
+    float: left;
+    padding-left: 24px;
+    width: 34%;
+  }
+
+  article {
+    float: left;
+    padding-left: 24px;
+    width: 34%;
+  }
+}
+ul {
+  text-align: center;
+}
+ul li {
+  color: #ddd;
+}
+
+table {
+  text-align: center;
+}
+table th {
+  background-color: blue;
+}
+table td {
+  background-color: green;
+}
+
 header {
   background-color: #ddd;
 }
 
-.scss-background {
+.content-background {
   background-color: #4CAF50;
 }
 
@@ -15,7 +49,6 @@ p, h1, h2, h3, h4, h5, h6, a {
   background-color: #4CAF50;
 }
 
-/*Nav*/
 .topnav {
   overflow: hidden;
   background-color: #333;
