@@ -11,3 +11,6 @@ about.html: accessible via the "About" button on the navbar. Gives an in-depth e
 articles.html: accessible via the "Articles" button on the navbar. Will contain links to my articles on various subjects.
 
 cats.html: accessible via the "Cat Images" button on the navbar. Contains a responsive table of cat images.
+
+
+minor bug - main pages unable to link to subpages
