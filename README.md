@@ -13,4 +13,4 @@ articles.html: accessible via the "Articles" button on the navbar. Will contain 
 cats.html: accessible via the "Cat Images" button on the navbar. Contains a responsive table of cat images.
 
 
-minor bug - main pages unable to link to subpages
+note to self = love.2d (2d game design)
