@@ -15,23 +15,38 @@
                   This website is still in development. Please report any bugs or suggestions to me at <a href="mailto:dirigo112@gmail.com">dirigo112@gmail.com</a>.
                 </div>
             </div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
               <a class="navbar-brand" href="#">Project 0</a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a>
-                  <a class="nav-link" href="./about.html">About</a>
-                  <a class="nav-link" href="./projects.html">All Projects</a>
-                  <a class="nav-link" href="projects-internals/hopeforthegalaxy.html">Hope for the Galaxy</a>
-                  <a class="nav-link" href="projects-internals/periodictableindex.html">Periodic Table Index</a>
-                  <a class="nav-link" href="projects-internals/binarytranslate.html">Binary Translator</a>
-                  <a class="nav-link disabled" href="./writing.html" tabindex="-1" aria-disabled="true">Writing</a>
-                </div>
+            
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Projects
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="projects-internals/binarytranslate.html">Binary Translator</a>
+                      <a class="dropdown-item" href="projects-internals/periodictableindex.html">Periodic Table Lookup</a>
+                      <a class="dropdown-item" href="projects-internals/hopeforthegalaxy.html">Hope for the Galaxy</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="projects.html">All Projects</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Writing</a>
+                  </li>
+                </ul>
               </div>
-            </nav>
+            </nav>  
           </header>
       <div>
         <p></p>
@@ -49,5 +64,9 @@
       <footer id="info">
         <p>Contact me at <a href="mailto:dirigo112@gmail.com">dirigo112@gmail.com</a> if you have any questions or feedback.</p>
       </footer>
+      <script>window.jQuery || document.write('<script src="https://getbootstrap.com/docs/4.5/assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+      <script src="https://getbootstrap.com/docs/4.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+      <script src="https://getbootstrap.com/docs/4.5/assets/js/docs.min.js"></script>
     </body>
 </html>
