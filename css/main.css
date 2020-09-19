@@ -49,6 +49,10 @@ a {
   color: white;
 }
 
+.textfloatleft {
+  float: left;
+}
+
 #info {
   background-color: #4CAF50;
 }
