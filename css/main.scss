@@ -1,6 +1,6 @@
 
 // color variables
-$activecolor: #4CAF50;
+$activecolor: #131313;
 $inactivecolor: #f2f2f2;
 $hovercolor: #ddd;
 
@@ -12,6 +12,7 @@ $hovercolor: #ddd;
 @media all and (min-width: 900px) {
   #info {
     clear: both;
+    text-align: center;
   }
   aside {
     float: left;
@@ -30,7 +31,7 @@ $hovercolor: #ddd;
 ul {
   text-align: center;
   li {
-    color: $hovercolor;
+    color: $activecolor;
   }
 }
 
@@ -67,38 +68,4 @@ a {
 
 .textfloatleft {
   float: left;
-}
-
-// footer background
-#info {
-  background-color: $activecolor;
-}
-
-
-// navigation bar
-
-// class for the navigation bar
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  color: $inactivecolor;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: $hovercolor;
-  color: black;
-}
-
-.topnav a.active {
-    background-color: $activecolor;
-    color: white;
 }
