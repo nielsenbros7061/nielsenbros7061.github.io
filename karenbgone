@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home | Project 0</title>
+        <link type="text/css" rel="stylesheet" href="css/main.css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="shortcut icon" href="components/images/favicon.png"/>
+    </head>
+    <body>
+      <header>
+         <div class="container">
+           <p></p>
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                  <strong>This site is still in development.</strong> Please report any bugs or suggestions to me at <a href="mailto:dirigo112@gmail.com">dirigo112@gmail.com</a>.
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+          </div>
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Project 0 <img href="components/images/favicon.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="securerig.html">SecureRig</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Projects
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="projects-internals/binarytranslate.html">Binary Translator</a>
+                    <a class="dropdown-item" href="projects-internals/periodictableindex.html">Periodic Table Lookup</a>
+                    <a class="dropdown-item" href="projects-internals/hopeforthegalaxy.html">Hope for the Galaxy</a>
+                    <a class="dropdown-item" href="projects-internals/hexadecimals.html">Hexadecimals<span class="badge badge-success">New</span></a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="projects.html">All Projects</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Writing</a>
+                </li>
+                <li class="nav-item textfloatleft">
+                  <a class="nav-link" href="http://eepurl.com/hdTbTX">Newsletter</a>
+                </li>
+              </ul>
+            </div>
+      </header>
+      <div class="container">
+        <p></p>
+      </div>
+      <div class="container">
+          <h2>Project 0</h2>
+          <p>This site was designed as part of Harvard's CS50W Online Course.</p>
+          <p>It was designed by Peter Nielsen (me) and takes Bootstrap's CSS components to make it better. It uses Sassy CSS for a secondary stylesheet. Coded with love on GitHub.</p>
+      </div>
+        <footer>
+          <div class="container">
+            <div class="alert alert-dark">
+              <a class="col-lg-4 col-md-2" href="mailto:dirigo112@gmail.com">Contact</a>
+              <a class="col-lg-4 col-md-2" href="about.html">About</a>
+              <a class="col-lg-4 col-md-2" href="projects.html">All Projects</a>
+              <a class="col-lg-4 col-md-2" href="https://github.com/peternielsen112/peternielsen112.github.io">Github Repository</a>
+              <a class="col-lg-4 col-md-2" href="#dummylink">Newsletter</a>
+              <a class="col-lg-4 col-md-2" href="https://github.com/peternielsen112">Coded with love on GitHub</a>
+            </div>
+          </div>
+        </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="/docs/4.5/assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+          <script src="/docs/4.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+          <script src="/docs/4.5/assets/js/docs.min.js"></script>
+    </body>
+</html>
